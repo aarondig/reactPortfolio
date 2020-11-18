@@ -1,0 +1,40 @@
+#main {
+    background: rgb(15, 15, 15);
+    background-position: center !important;
+    height: 600vh !important;
+    overflow: hidden !important;
+    /* clip-path: polygon(100% 0, 100% 65%, 70% 100%, 0 100%, 0 0); */
+    z-index: 1 !important;
+  }
+  
+  #background {
+    position: fixed;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.06);
+    margin-top: -25vw;
+    margin-right: -55vw;
+    font-size: 30vw;
+    transform: rotate(90deg);
+    line-height: .9em;
+    overflow: hidden;
+    background-attachment: scroll;
+    /* Parallax */
+  }
+  #mainHead {
+    position: relative;
+    margin-top: 45vh;
+  }
+
+  @media only screen and (min-width: 700px) {
+    #mainHead {
+      
+    }
+  }
+
+  /* MOBILE */
+@media only screen and (max-width: 700px) {
+  #background {
+  margin-top: -10vw;
+    font-size: 40vw;
+  }
+}

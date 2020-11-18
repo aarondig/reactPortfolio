@@ -1,0 +1,41 @@
+#banner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    padding: 160px;
+    z-index: 0;
+    background-color: rgba(237, 237, 237, 0);
+    top: 165vh;
+    /* clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0%); */
+    clip-path: polygon(100% 0, 100% 75%, 0 100%, 0 22%);
+    /* transform: rotate(355deg); */
+  }
+  
+  #banner .header {
+    font-family: "Poppins", sans-serif;
+    color: #f4f4f4;
+    font-size: 8vw !important;
+    font-weight: 800;
+    font-style:italic;
+    text-align: center;
+    
+  }
+/* #banner h3 {
+  font-size: 3vh !important;
+ text-align: left;
+ font-weight: 100;
+ line-height: 1.8em;
+ padding-bottom:40px;
+} */
+  /* @media only screen and (max-width: 1300px) {
+    #featured {
+      padding: 80px;
+    }
+  } */
+
+  /* MOBILE */
+/* @media only screen and (max-width: 900px) {
+  #featured {
+    padding: 35px;
+  }
+} */

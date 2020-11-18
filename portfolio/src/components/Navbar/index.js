@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar(props) {
   return <div class="ui inverted center aligned segment" id="navbar">
-  <div class="ui inverted secondary pointing five item menu">
+  <div class="ui inverted secondary pointing four item fixed menu">
     <a class="active item">
       Home
     </a>
