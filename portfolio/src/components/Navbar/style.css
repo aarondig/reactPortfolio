@@ -1,0 +1,8 @@
+#navbar {
+    position: absolute;
+    width: 100%;
+}
+.ui.secondary.inverted.pointing.menu {
+border: none;
+
+}
