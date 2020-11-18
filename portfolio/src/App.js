@@ -2,7 +2,6 @@ import Wrapper from './components/Wrapper';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
 import About from './components/About';
-import Banner from './components/ProjectsBanner';
 import Projects from './components/Projects';
 import './App.css';
 
@@ -14,7 +13,6 @@ function App() {
         <Main>
         </Main>
         <About />
-        <Banner />
         <Projects/>
       </Wrapper>
     </div>

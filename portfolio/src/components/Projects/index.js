@@ -10,7 +10,7 @@ function Featured(props) {
         <div class='two wide column'>
         </div>
         <div class='ten wide right floated column'>
-          <h3>Born and raised in Northern California, I grew into a passion of telling visual narratives and refining aesthetics. I believe a foundational step to any application is the user experience, and the way a user interacts with the product.</h3>
+          <h3>Born and raised in Northern California</h3>
         </div>
       </div>
     </div>

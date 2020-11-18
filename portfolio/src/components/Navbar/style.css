@@ -3,9 +3,9 @@
     width: 100%;
     z-index: 100 !important;
     /* box-shadow: 0 100px 200px 50px rgba(0, 0, 0, 0.6); */
-    background:  linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.24) );
+
 }
 .ui.secondary.inverted.pointing.menu {
 border: none;
-
+background: rgb(15, 15, 15) !important;
 }

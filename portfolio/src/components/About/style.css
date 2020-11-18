@@ -15,17 +15,32 @@
     color: #000000;
     font-size: 5vh !important;
     font-weight: 200;
+    margin-top: -60px;
   }
 h3 {
   font-size: 3vh !important;
  text-align: left;
  font-weight: 100;
  line-height: 1.8em;
- padding-bottom:40px;
+ /* padding-bottom:60px; */
 }
   @media only screen and (max-width: 1300px) {
     #about {
       padding: 80px;
+    }
+    #about .header {
+      font-family: "Poppins", sans-serif;
+      margin-top: 0px;
+    }
+  }
+
+  @media only screen and (min-width: 1300px) {
+    #about {
+      padding: 80px;
+    }
+    #about .header {
+      font-family: "Poppins", sans-serif;
+      margin-top: 0px;
     }
   }
 
@@ -33,5 +48,8 @@ h3 {
 @media only screen and (max-width: 900px) {
   #about {
     padding: 35px;
+  }
+  h3 {
+    padding-bottom: 80px;
   }
 }

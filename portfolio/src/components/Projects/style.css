@@ -6,9 +6,9 @@
     padding: 150px;
     z-index: 2;
     background-color: #ededed;
-    top: 200vh;
+    top: 185vh;
     /* clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0%); */
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 40%);
   }
   
   #featured .header {
@@ -34,5 +34,6 @@
 @media only screen and (max-width: 900px) {
   #featured {
     padding: 35px;
+    top: 200vh;
   }
 }
