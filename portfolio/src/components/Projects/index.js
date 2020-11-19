@@ -7,9 +7,7 @@ function Featured(props) {
     <h2 class="ui header">PROJECTS</h2>
       <div class="ui middle aligned stackable grid container">
       <div class='row'>
-        <div class='two wide column'>
-        </div>
-        <div class='ten wide right floated column'>
+        <div class='ten wide column'>
           <h3>Born and raised in Northern California</h3>
         </div>
       </div>

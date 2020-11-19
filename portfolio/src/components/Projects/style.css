@@ -1,14 +1,11 @@
 #featured {
     position: absolute;
-    height: auto !important;
+    height: 800px !important;
     width: 100%;
     overflow: hidden;
     padding: 150px;
     z-index: 2;
-    background-color: #ededed;
-    top: 185vh;
-    /* clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0%); */
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 40%);
+    background: #ededed;
   }
   
   #featured .header {
@@ -16,6 +13,7 @@
     color: #000000;
     font-size: 5vh !important;
     font-weight: 200;
+    padding-top: 100px;
   }
 #featured h3 {
   font-size: 3vh !important;
@@ -24,16 +22,23 @@
  line-height: 1.8em;
  padding-bottom:40px;
 }
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (min-width: 1000px) {
     #featured {
-      padding: 80px;
+      padding: 50px;
+      top: 180vh;
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 12%) !important;
     }
   }
 
   /* MOBILE */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   #featured {
     padding: 35px;
-    top: 200vh;
+    top: 190vh;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  #featured h3 {
+    padding-bottom: 80px;
+    font-size: 20px !important;
   }
 }

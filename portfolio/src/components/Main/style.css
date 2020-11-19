@@ -3,7 +3,6 @@
     background-position: center !important;
     height: 600vh !important;
     overflow: hidden !important;
-    /* clip-path: polygon(100% 0, 100% 65%, 70% 100%, 0 100%, 0 0); */
     z-index: 1 !important;
   }
   
@@ -11,18 +10,19 @@
     position: fixed;
     font-family: "Poppins", sans-serif;
     color: rgba(255, 255, 255, 0.06);
-    margin-top: -25vw;
+    margin-top: 0vw;
     margin-right: -55vw;
     font-size: 30vw;
     transform: rotate(90deg);
     line-height: .9em;
     overflow: hidden;
-    background-attachment: scroll;
     /* Parallax */
   }
   #mainHead {
-    position: relative;
+    position: absolute;
     margin-top: 45vh;
+    font-size: 8vw;
+    text-align: right;
   }
 
   @media only screen and (min-width: 700px) {
