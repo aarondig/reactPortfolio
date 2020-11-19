@@ -1,0 +1,58 @@
+#contact {
+    position: absolute;
+    height: auto !important;
+    width: 100%;
+    overflow: hidden;
+    padding: 150px;
+    z-index: 2;
+    background-color: rgb(15, 15, 15, .8);
+    top: 600vh;
+  }
+  
+  #contact .header {
+    font-family: "Poppins", sans-serif;
+    color: #ededed;
+    font-size: 5vh !important;
+    font-weight: 200;
+    margin-top: -60px;
+  }
+  #contact h3 {
+    color: #ededed;
+    font-size: 3vh !important;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.8em;
+ /* padding-bottom:60px; */
+}
+  @media only screen and (max-width: 1300px) {
+    #contact {
+      padding: 80px;
+    }
+    #contact .header {
+      font-family: "Poppins", sans-serif;
+      margin-top: 0px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    #contact {
+      padding: 80px;
+      top: 500vw;
+    }
+    #contact .header {
+      font-family: "Poppins", sans-serif;
+      margin-top: 0px;
+    }
+  }
+
+  /* MOBILE */
+@media only screen and (max-width: 1000px) {
+  #contact {
+    top: 1100vw;
+    padding: 35px;
+  }
+  #contact h3 {
+    padding-bottom: 80px;
+    font-size: 20px !important;
+  }
+}

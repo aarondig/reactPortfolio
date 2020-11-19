@@ -1,4 +1,3 @@
-import React from "react";
 import "./style.css";
 
 function Main(props) {
@@ -6,7 +5,7 @@ function Main(props) {
           <div class="ui grid">
           <div class="one column row">
               <div class="center aligned column">
-              <div class="ui right aligned container" id="mainContainer">
+              <div class="ui middle aligned container" id="mainContainer">
                 <h1 class="ui inverted centered header" id="mainHead">AARON DIGGDON</h1>
               </div>
             </div>
