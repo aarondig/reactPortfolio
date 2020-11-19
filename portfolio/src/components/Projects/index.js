@@ -31,16 +31,16 @@ function Featured(props) {
 
       <div class="row">
         <div class="fourteen wide centered column">
-          <a href="https://aarondig.github.io/factCheck/">
-            <img class="img-fluid" src="https://github.com/aarondig/factCheck/blob/main/assets/banner.png?raw=true"></img>
+          <a href="https://github.com/aarondig/burgerEater">
+            <img class="img-fluid" src="https://github.com/aarondig/burgerEater/blob/main/assets/Screen%20Shot%202020-11-04%20at%208.46.43%20PM.png?raw=true"></img>
           </a>
         </div>
         <div class="fourteen wide centered column">
           <div class='column'>
-            <h2 class="title">Google Fact Checker</h2>
+            <h2 class="title">Burger Eater</h2>
           </div>
           <div class="column">
-            <h3>Using Google's Fact Check API, this application ruturns fact checked articles based on the user's input search query. Using CSS and jquery animations, this appliaction displays the capabilities of my coding and design skillset.</h3>
+            <h3>Using a mySQL database, this application allows a user to write-to, update, and edit a database in the form of eating burgers.</h3>
             <hr/>
           </div>
         </div>

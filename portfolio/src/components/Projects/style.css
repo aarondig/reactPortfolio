@@ -1,6 +1,6 @@
 #featured {
     position: absolute;
-    height: 1500px !important;
+    height: auto !important;
     width: 100%;
     overflow: hidden;
     padding: 150px;
