@@ -1,6 +1,6 @@
 #featured {
     position: absolute;
-    height: 800px !important;
+    height: 1500px !important;
     width: 100%;
     overflow: hidden;
     padding: 150px;
@@ -20,7 +20,15 @@
  text-align: left;
  font-weight: 100;
  line-height: 1.8em;
- padding-bottom:40px;
+}
+
+.title {
+ text-align: center !important;
+ margin:3vw !important;
+}
+
+img {
+  width: 100%;
 }
   @media only screen and (min-width: 1000px) {
     #featured {
@@ -38,7 +46,7 @@
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
   }
   #featured h3 {
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     font-size: 20px !important;
   }
 }
