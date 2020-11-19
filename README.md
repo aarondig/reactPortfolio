@@ -1,6 +1,6 @@
 # React Portfolio
 
-<img src="assets/localhost_3000_reactPortfolio (1).png" alt="User Image">
+<img src="assets/reactPortfolio.png" alt="User Image">
 
 <br>
 <br>
