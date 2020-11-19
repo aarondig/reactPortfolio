@@ -15,11 +15,11 @@
     font-size: 5vh !important;
     font-weight: 200;
     margin-top: -60px;
+    text-align: center !important;
   }
   #contact h3 {
     color: #ededed;
     font-size: 3vh !important;
-    text-align: left;
     font-weight: 100;
     line-height: 1.8em;
  /* padding-bottom:60px; */
@@ -38,10 +38,6 @@
     #contact {
       padding: 80px;
       top: auto;
-    }
-    #contact .header {
-      font-family: "Poppins", sans-serif;
-      margin-top: 0px;
     }
   }
 

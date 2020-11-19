@@ -7,11 +7,12 @@ function Contact(props) {
     <div class="ui vertical stripe segment">
       <div class="ui middle aligned stackable grid container">
       <div class='row'>
-        <div class='fourteen wide column'>
+        <div class='sixteen wide column'>
           <h2 class="ui header">CONTACT</h2>
         </div>
+      </div>
         <div class='row'>
-          <div class='ten wide column'>
+          <div class='sixteen wide centered column'>
             <div class="ui buttons">
               <button class="ui basic green inverted button" onClick={()=> alert("aarondiggdon@gmail.com")}>
                 <i class="icon user"></i>
@@ -28,7 +29,6 @@ function Contact(props) {
             </div>
           </div>
         </div>
-      </div>
     </div>
   </div>
 </div> ;
