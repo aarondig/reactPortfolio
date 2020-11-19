@@ -18,17 +18,10 @@
     overflow: hidden;
     /* Parallax */
   }
-  #mainHead {
+  #mainContainer {
     position: absolute;
     margin-top: 45vh;
     font-size: 8vw;
-    text-align: right;
-  }
-
-  @media only screen and (min-width: 700px) {
-    #mainHead {
-      
-    }
   }
 
   /* MOBILE */
@@ -36,5 +29,8 @@
   #background {
   margin-top: -10vw;
     font-size: 40vw;
+  }
+
+  #mainHead {
   }
 }

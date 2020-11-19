@@ -4,16 +4,16 @@ import "./style.css";
 function Navbar(props) {
   return <div class="ui inverted center aligned segment" id="navbar">
   <div class="ui inverted secondary pointing four item fixed menu">
-    <a class="active item">
+    <a class="active item" href="/">
       Home
     </a>
-    <a class="item">
+    <a class="item" href="/projects">
       Projects
     </a>
-    <a class="item">
+    <a class="item" href="/about">
      About
     </a>
-    <a class="item">
+    <a class="item" href="/contact">
      Contact
     </a>
   </div>

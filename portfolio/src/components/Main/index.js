@@ -6,8 +6,8 @@ function Main(props) {
           <div class="ui grid">
           <div class="one column row">
               <div class="center aligned column">
-              <div class="ui center aligned container" id="mainContainer">
-              <h1 class="ui inverted header" id="mainHead">AARON DIGGDON</h1>
+              <div class="ui right aligned container" id="mainContainer">
+                <h1 class="ui inverted centered header" id="mainHead">AARON DIGGDON</h1>
               </div>
             </div>
             </div>

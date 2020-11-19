@@ -45,7 +45,39 @@ function Featured(props) {
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="fourteen wide centered column">
+          <a href="https://github.com/aarondig/clickyGame">
+            <img class="img-fluid" src="https://github.com/aarondig/clickyGame/blob/main/assets/Screen%20Shot%202020-11-12%20at%206.22.42%20PM.png?raw=true"></img>
+          </a>
+        </div>
+        <div class="fourteen wide centered column">
+          <div class='column'>
+            <h2 class="title">Memory Game</h2>
+          </div>
+          <div class="column">
+            <h3>This game uses REACT to display a grid of images with onClick event listeners that trigger a function when selected. The onClick function within the game.js file determines if that same image has been clicked before. If it has, the game is lost and all state components are returned to their initial value, and setting the highscore as the user's current number of points. If it hasn't, the game continues, adding a point to the banner and shuffling cards using a math.random function.</h3>
+            <hr/>
+          </div>
+        </div>
+      </div>
       
+      <div class="row">
+        <div class="fourteen wide centered column">
+          <a href="https://github.com/aarondig/workdayScheduler">
+            <img class="img-fluid" src="https://github.com/aarondig/workdayScheduler/blob/master/_Users_Aaron_Desktop_workdayScheduler_index.html.png?raw=true"></img>
+          </a>
+        </div>
+        <div class="fourteen wide centered column">
+          <div class='column'>
+            <h2 class="title">Workday Scheduler</h2>
+          </div>
+          <div class="column">
+            <h3>A scheduling application that uses moment.js to relay real time colors on text boxes that save text using local storage.</h3>
+          </div>
+        </div>
+      </div>
           
     </div>
   </div>
