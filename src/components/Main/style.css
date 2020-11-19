@@ -16,7 +16,7 @@
     transform: rotate(90deg);
     line-height: .9em;
     overflow: hidden;
-    /* Parallax */
+    pointer-events: none !important;
   }
   #mainContainer {
     position: absolute;
