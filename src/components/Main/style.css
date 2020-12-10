@@ -21,6 +21,10 @@
   #mainContainer {
     position: absolute;
     margin-top: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   #mainHead {
     font-size: 50px;
@@ -45,6 +49,9 @@
   }
   #mainContainer {
     margin-top: 380px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   #mainHead {
     font-size: 30px;
