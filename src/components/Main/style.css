@@ -20,7 +20,7 @@
   }
   #mainContainer {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 45vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@
     height: 555vh !important;
   }
   #mainContainer {
-    margin-top: 380px;
+    margin-top: 45vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
