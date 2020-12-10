@@ -5,12 +5,14 @@
     overflow: hidden;
     padding: 150px;
     z-index: 2;
-    background: #ededed;
+    background: #ededed00;
+    backdrop-filter: blur(5px);
+    margin-top: -150px;
   }
   
   #featured .header {
     font-family: "Poppins", sans-serif;
-    color: #000000;
+    color: #ffffff;
     font-size: 5vh !important;
     font-weight: 200;
     padding-top: 100px;
@@ -20,30 +22,37 @@
  text-align: left;
  font-weight: 100;
  line-height: 1.8em;
+
 }
 
 .title {
  text-align: center !important;
  margin:3vw !important;
+ color: rgba(255, 255, 255, 0.875);
 }
 
 img {
   width: 100%;
 }
+
+hr {
+  margin: 20px;
+}
   @media only screen and (min-width: 1000px) {
     #featured {
       padding: 50px;
       top: 180vh;
-      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 2.5%) !important;
+      /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 2.5%) !important; */
     }
   }
 
   /* MOBILE */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   #featured {
-    padding: 35px;
+    padding: 0px;
     top: 190vh;
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 4%);
+    margin-top: -160px;
+    /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 4%); */
   }
   #featured h3 {
     padding-bottom: 20px;

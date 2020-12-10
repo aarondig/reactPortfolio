@@ -3,11 +3,12 @@
     height: auto !important;
     width: 100%;
     overflow: hidden;
-    padding: 150px;
+    padding: 300px;
     z-index: 2;
-    background-color: #ededed;
+    background-color: #ededed00;
+    backdrop-filter: blur(5px);
     top: 120vh;
-    clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0%);
+    /* clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0%); */
   }
   
   #about .header {
@@ -16,12 +17,14 @@
     font-size: 5vh !important;
     font-weight: 200;
     margin-top: -60px;
+    color: rgb(255, 255, 255);
   }
 h3 {
   font-size: 3vh !important;
  text-align: left;
  font-weight: 100;
  line-height: 1.8em;
+ color: rgba(255, 255, 255, 0.882);
  /* padding-bottom:60px; */
 }
   @media only screen and (max-width: 1300px) {

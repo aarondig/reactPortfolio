@@ -20,10 +20,15 @@
   }
   #mainContainer {
     position: absolute;
-    margin-top: 45vh;
-    font-size: 8vw;
+    margin-top: 400px;
+  }
+  #mainHead {
+    font-size: 50px;
   }
 
+  #subHead {
+    font-size: 20px;
+  }
   /* MOBILE */
 @media only screen and (max-width: 700px) {
   #background {
@@ -34,9 +39,20 @@
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   #main {
     height: 555vh !important;
+  }
+  #mainContainer {
+    margin-top: 380px;
+  }
+  #mainHead {
+    font-size: 30px;
+    margin-bottom: -10px;
+  }
+
+  #subHead {
+    font-size: 16px;
   }
 }
 

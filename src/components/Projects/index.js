@@ -8,7 +8,7 @@ function Featured(props) {
       <div class="ui middle aligned stackable grid container">
       <div class='row'>
         <div class='ten wide centered column'>
-          <h3>Born and raised in Northern California</h3>
+          <h3></h3>
         </div>
       </div>
 
