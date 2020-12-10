@@ -14,7 +14,7 @@ function Featured(props) {
 
       <div class="row">
         <div class="fourteen wide centered column">
-          <a href="https://aarondig.github.io/factCheck/">
+          <a href="https://googlefactchecker.herokuapp.com">
             <img class="img-fluid" src="https://github.com/aarondig/factCheck/blob/main/assets/banner.png?raw=true"></img>
           </a>
         </div>
