@@ -19,12 +19,13 @@
     pointer-events: none !important;
   }
   #mainContainer {
-    position: absolute;
+    position: fixed;
     margin-top: 45vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    transition: opacity 1s ease-in-out;
   }
   #mainHead {
     font-size: 50px;
