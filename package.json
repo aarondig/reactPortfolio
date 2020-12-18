@@ -11,6 +11,10 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-spring": "^8.0.27",
+    "react-three-fiber": "^5.3.10",
+    "three": "^0.123.0",
+    "use-cannon": "^0.5.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -20,7 +24,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
